@@ -9,6 +9,7 @@ import todo from "../media/todo.png"
 import youtube from '../media/youtube.jpg'
 import recipe from "../media/recipe.png"
 import nykaa from '../media/nykaa.jpg'
+import stars from '../media/stars.png'
 import nordstorm from '../media/nordstorm.png'
 import Container from 'react-bootstrap/esm/Container'
 import Button from 'react-bootstrap/esm/Button'
@@ -106,10 +107,11 @@ const Experience = ({ darkMode }) => {
                                                     </Card.Body>
                                                 </div>
                                                 <div className="flip-card-back">
-
+ 
 
                                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" />
 
+                                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" />
 
                                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" />
 
@@ -216,7 +218,6 @@ const Experience = ({ darkMode }) => {
 
 
 
-                                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" />
 
 
 
@@ -265,7 +266,7 @@ const Experience = ({ darkMode }) => {
                                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" />
 
 
-                                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" />
+
 
                                                 </div>
                                             </div>
@@ -290,11 +291,11 @@ const Experience = ({ darkMode }) => {
                                         <div class="flip-card">
                                             <div class="flip-card-inner">
                                                 <div className="flip-card-front">
-                                                    <Card.Img variant="top" src={todo} />
+                                                    <Card.Img variant="top" src={stars} />
                                                     <Card.Body>
-                                                        <Card.Title align="center">A Simple TODO App</Card.Title>
+                                                        <Card.Title align="center">Star Wars Mini App</Card.Title>
                                                         <Card.Text>
-                                                            <p align="center">A simple Todo Application which is made using reactJs to manage your daily tasks.</p>
+                                                            <p align="center">A mini web app implemented with the feature of debouncing which show you the characters as per the input field </p>
                                                         </Card.Text>
                                                     </Card.Body>
                                                 </div>
@@ -307,10 +308,6 @@ const Experience = ({ darkMode }) => {
 
                                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" />
 
-                                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" />
-
-
-                                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" />
 
                                                 </div>
                                             </div>
@@ -318,10 +315,10 @@ const Experience = ({ darkMode }) => {
                                     </center>
                                     <br></br>
                                     <div>
-                                        <a href="https://todoapp-nu-snowy.vercel.app/" target="_blank" rel="noreferrer noopener">
+                                        <a href="https://sanketnchaware.github.io/StarWars/" target="_blank" rel="noreferrer noopener">
                                             <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Project</Button>
                                         </a>
-                                        <a href="https://github.com/sanketnchaware/React_Todo" target="_blank" rel="noreferrer noopener">
+                                        <a href="https://github.com/sanketnchaware/StarWars" target="_blank" rel="noreferrer noopener">
                                             <Button variant={darkMode ? "outline-light" : "outline-dark"} className="sbtn">View Github Repo</Button>
                                         </a>
                                     </div>
